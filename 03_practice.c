@@ -1,8 +1,14 @@
 #include<stdio.h>
 
-int main(){
-    float celsius = 37, far;
-    far = (celsius*9/5)+32;
-    printf("The value of this celsius temperature in farenheit is%f", far);
+int main()
+{
+    int a = 10;
+    //if(a == 11){
+    if(a = 11){
+        printf("I am 11\n");
+    }
+    else{
+        printf("I am not 11\n");
+    }
     return 0;
 }
